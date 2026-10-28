@@ -40,3 +40,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_CYCLE_LEFT_RIGHT
 #define RGB_MATRIX_DEFAULT_VAL 128
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 200
+
+#define TAPPING_TERM 250
+#define PERMISSIVE_HOLD  // Triggers mod if you tap another key while holding.
+#define CHORDAL_HOLD     // Constrains holds to opposite-hand combinations.
+#define FLOW_TAP_TERM 150 // Disables holds when typing quickly.	
